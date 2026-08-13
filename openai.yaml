@@ -1,0 +1,13 @@
+interface:
+  display_name: 存储故障小红书图文创作
+  short_description: 批量创作存储故障科普图文，生成配图、Word与完整交付包
+  default_prompt: 使用 $create-storage-failure-xhs 批量创作存储故障小红书图文、分步配图及Word交付包。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
